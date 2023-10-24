@@ -1,12 +1,13 @@
 import java.util.*;
-public class  tarun{
+public class tarun {
     public static void main(String args[]){
         Scanner gt=new Scanner(System.in);
-        int x,boy1,boy2,boy3;
-        x=gt.nextInt();
-        boy1=gt.nextInt();
-        boy2=gt.nextInt();
-        boy3=(3*x)-boy1-boy2;
-        System.out.println(boy3);
+        int b1,b2,b3,wt;
+        wt=gt.nextInt();
+        b2=gt.nextInt();
+        b1=gt.nextInt();
+        b3=(3*wt)-b1-b2;
+        System.out.println(b3);
+        
     }
 }
